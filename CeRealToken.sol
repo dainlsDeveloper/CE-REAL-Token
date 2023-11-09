@@ -581,7 +581,7 @@ contract CeRealToken is ERC20, Ownable {
     // set upper limit as constant to prevent arbitrary minting
     uint256 public constant UPPER_LIMIT = 250000000000000000000000000;
     // Hippocrat minted at creation
-    constructor(uint256 initialSupply) ERC20("CE-REAL", "CEP") {
+    constructor(uint256 initialSupply) ERC20("CEREAL", "CEP") {
         _mint(msg.sender, initialSupply);
     }
     // ERC20 is mintable
